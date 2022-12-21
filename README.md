@@ -1,5 +1,5 @@
 # Sesame
-
+[![Dart CI](https://github.com/m11v/sesame/actions/workflows/dart.yml/badge.svg?branch=main)](https://github.com/m11v/sesame/actions)
 ## Features
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
