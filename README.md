@@ -1,25 +1,31 @@
 # Sesame
 [![Dart CI](https://github.com/m11v/sesame/actions/workflows/dart.yml/badge.svg?branch=main)](https://github.com/m11v/sesame/actions)
 ## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Useful extension methods for Dart collections.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+Add the following to your `pubspec.yaml`:
 
 ```dart
-const like = 'sample';
+dependencies:
+  sesame: any
 ```
 
-## Additional information
+## Usage
+### Extensions
+A set of useful extension methods for Dart collections.
+#### MapGetOr
+```dart
+import 'package:sesame/extensions.dart';
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+final map = {"fruit":"apple"};
+
+final fruitOrDefaultValue = map.getOrElse("fruit", "orange"); // apple
+
+final vegetableOrDefaultValue = map.getOrElse("vegetable", "lettuce"); // lettuce
+
+final fruitOrNull = map.getOrNull("fruit"); // apple
+
+final vegetableOrNull = map.getOrNull("vegetable"); //null
+```
