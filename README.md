@@ -1,5 +1,8 @@
 # Sesame
+A set of utils for Dart or flutter applications.
+
 [![Dart CI](https://github.com/m11v/sesame/actions/workflows/dart.yml/badge.svg?branch=main)](https://github.com/m11v/sesame/actions)
+[![sesame](https://img.shields.io/pub/v/sesame?label=sesame)](https://pub.dev/packages/sesame)
 ## Features
 - Useful extension methods for Dart collections.
 
