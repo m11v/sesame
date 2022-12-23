@@ -1,7 +1,9 @@
 name: sesame
 description: A set of utils for Dart or flutter applications.
-version: 1.0.0
+version: 0.0.1
 homepage: https://github.com/m11v/sesame
+repository: https://github.com/m11v/sesame
+
 environment:
   sdk: '>=2.18.2 <3.0.0'
 dev_dependencies:
