@@ -5,6 +5,7 @@ A set of utils for Dart or flutter applications.
 [![codecov.io](http://codecov.io/github/m11v/sesame/coverage.svg?branch=main)](http://codecov.io/github/m11v/sesame?branch=main)
 [![Pub](https://img.shields.io/pub/v/sesame?label=Pub)](https://pub.dev/packages/sesame)
 [![Package publisher](https://img.shields.io/pub/publisher/sesame.svg)](https://pub.dev/packages/sesame/publisher)
+[![License](https://img.shields.io/github/license/m11v/sesame)](https://github.com/m11v/sesame/blob/main/LICENSE)
 ## Features
 - Useful extension methods for Dart collections.
 
